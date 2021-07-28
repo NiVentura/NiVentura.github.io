@@ -1,0 +1,88 @@
+*{ /* Regra resert: com o uso do * estamos informando que desejamos aplicar para todas as tags possíveis*/ 
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    height: 100%;
+}
+/* Podemos classificar duas tags ao mesmo tempo. Neste caso, serviu para informar que eles tem o mesmo tamanho*/
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background: rgb(34,193,195);
+    background: linear-gradient(246deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+/*FUNÇÃO GRADIENTE no site "css gradient" vc pode combinar as cores q desejar*/
+
+
+.avatar{
+    width: 80px; /*Tamanho da foto*/
+    border-radius: 50px; /*arredondamento da foto*/
+    border: 3px solid white; /*borda da foto*/
+    box-shadow: 0 0 20px white; /*sombra da foto*/
+}
+
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+h1{
+    font-family: 'Architects Daughter', cursive; 
+    font-weight: 100; /*Espessura da fonte*/
+    font-size: 24px; /*Tamanho da letra*/
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 16px;
+   
+}
+.social{
+    display: flex; /*Todos os filhos ficarão lado a lado. FLEXBOX*/
+    justify-content: space-around; /*Só funciona qdo há o display (flex). Espaço ao redor*/ 
+    list-style: none; /*Remove os marcadores da lista*/
+    margin: 20px 0;
+
+
+}
+
+
+.social img{ /* aninhado, a div é classifica de 'social' mas por ter a img dentro da div, tb podemos realizar alterações nelas */
+    width: 33px;
+   
+
+}
+
+.links-list{
+    list-style: none; /*retira a formatação da lista*/ 
+}
+
+
+.links-list li{
+    margin: 10px 20px;
+
+}
+
+.links-list li a{ /*Atenção: o último é que será estilizado, neste caso o "a" (âncora)*/
+    background: whitesmoke;
+    padding: 15px 20px;
+    display: block; /* Por padrão a tag a possui o display inline - Ele irá se transformar como um bloco*/ 
+    border-radius: 4px;
+    text-decoration: none; /*Remover a linha do link*/
+    color: rgb(34,193,195);
+    font-weight: bold;
+
+}
+
+.links-list li a span {
+    color: tomato;
+    display: block; /*Os elementos inline não tem o comportamento do display: block, eles não conseguem ter margim, os elementos inline ficam todos lados a lados */
+    margin-top: 10px;
+}
