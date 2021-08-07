@@ -1,0 +1,173 @@
+<!DOCTYPE html> <!-- Versão do HTML, este caso a 5-->
+<html lang="pt-br"> <!--Idioma. Padrâo: Inglês-->
+<head> <!-- Marcador (Cabeça) - head serve para as configurações da página-->
+    <meta charset="UTF-8"> <!-- Defini a codificação de caracteres desta página -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title> C U R R I C U L O</title> <!-- serve para definir o título da página, irá aparecer na barra de título do navegador-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Loop&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> <!-- Formatação do CSS-->
+
+        <!-- Na tah head (que é a tag de configurações de nossa página iremos utilizar uma tag esepcífica para realizar o css. Esta tag é para importar arquivo de css. rel (=relação) é um atributo de relação. 
+        href - ele tá perguntando de onde eu quero exportar, neste caso é um arquivo, mas pode ser um link tb -->
+       <!-- Style - atributo é usado para adicionar estilos a um elemento, como cor, fonte, tamanho e muito mais.-->
+
+</head>
+
+<body> <!-- Corpo da página é responsável pela área visível da minha página-->
+
+    <div class="container"> <!-- Divisão na página (caixa)-->
+
+        <div class="profile">
+
+            <img src="ivani_ventura.jpg" alt="Ivani Ventura" class="photo"> 
+                <!-- a Tag q serve para inserir uma imagem no html, src = aonde estar o arquivo de origem, alt = é o texto alternativo -->
+                <!-- Colocasse class para referenciar no css. Atente-se que ela fica dentro do < >. Não se usa espaço-->
+            <h1> Ivani Ventura</h1> <!--Define o título - h1 (+importante) até h6 (-importante)-->
+            <h2> Estudante ADS</h2> 
+
+                <a href="https://br.linkedin.com/in/ivani-ventura-81044a203" target="_blank" class="social-links" > 
+                    <img src="logo-linkedin.png" alt="Linkedin" class="social-icons">
+                </a> <!-- No lugar do nome pode colocar imagem tb -->
+                
+                <a href="https://github.com/NiVentura?tab=repositories" target="_blank" class="social-links">
+                    <img src="logo-github.png" alt="GitHub" class="social-icons github">           
+                </a>
+
+                <!--O href atributo especifica o URL da página para a qual o link vai: -->
+                
+                <a href="https://www.instagram.com/ni_ventura/?utm_medium=copy_link" target="_blank" class="social-links">
+                    <img src="logo-instagram.png" alt="Instagram" class="social-icons"> 
+                </a>
+
+                    <!-- Tag link é uma tag ancora, a de âncora (definir um link), h de hiperlink e ref de referência (definir o endereço do link). Deve ter um enderenço, pois ela irá dá acesso ao link informado. target (= alvo (abrir o documento vinculado)) neste caso ao colocamos ela vamos para outra página sem sair da atual com o uso do _black -->
+
+                   
+
+        </div>
+
+            <p> <!--Tag parágrafo-->
+                 Eu sou <strong> Ivani Ventura </strong>, estudante do penúltimo período do Curso de Análise e Desenvolvimento de Sistemas (ADS) da Universidade Estácio de Sá. Atualmente em transição profissional, pois exerço, há 20 anos, atividade de Agente de Segurança da Prefeitura do Recife. Procuro vivenciar novas experiências e novos desafios profissionais e encontrar a realização profissional. 
+            </p>
+        
+        
+        <h3> Formação Acadêmica </h3>
+
+        <ul> <!--Lista Não Ordenada-->
+        
+            <li> <!-- Defini o itens da lista-->
+            <h4> Universidade Estácio de Sá </h4>
+            <p>
+            Análise e Desenvolvimento de Sistema <br> <!-- elemento vazio, não contém tag de fechamento-->
+            Esperado em 06 / 2022
+            </p>
+            </li>
+
+         
+
+            <li>
+            <h4> Universidade do Sul de Santa Catarina </h4>
+            <p>
+            Segurança no Trânsito <br> <!-- Tag quebra de linha-->
+            Conclusão 06 / 2012
+            </p>
+            </li>
+
+        </ul>
+
+        <h3> Cursos Complementares </h3>
+
+        <ul>
+            <li>
+            <h4> Linguagem de Modelagem Unificada (UML) </h4> 
+            <p>
+            Fundação Bradesco – Escola Virtual<br>
+            12 horas – Março / 2021 
+            </p>
+            </li>
+
+            <li>
+            <h4> Introdução a criação de websites com HTML5 e CSS3 </h4> 
+            <p>
+            DIO - Digital Innovation One<br>
+            6 horas – Fevereiro / 2021 
+            </p>
+            </li>
+
+            <li>
+            <h4> Programação para internet com JavaScript </h4> 
+            <p>
+            DIO - Digital Innovation One<br>
+            2 horas – Fevereiro / 2021 
+            </p>
+            </li>
+
+           
+            <li>
+            <h4> Introdução a Web Designer </h4>
+            <p>
+            Cesfope -  Centro de Formação dos Servidores e Empregados Públicos do Estado de Pernambuco<br>
+            100 horas – Novembro / 2020 
+            </p>
+            </li>
+            
+
+            <li>
+            <h4> 11º Seminário de Proteção à Privacidade e aos Dados Pessoais </h4> 
+            <p> 
+            NIC.br e CGI.br <br>
+            24 horas – Novembro / 2020 
+            </p>
+            </li>
+
+        </ul>
+
+    <h3> Principais Habilidades </h3>
+
+    <ul>
+
+        <li> Proatividade </li>
+        <li> Aceitar feedback </li>
+        <li> Capacidade de aprender </li>
+        <li> Flexibilidade de horário </li>
+
+    </ul> 
+
+
+    <h3> Experiências Profissionais </h3>
+
+        <div class="expertise">
+        <h4> Agente de Segurança Municipal </h4>
+        <p>
+        Prefeitura do Recife <br>
+        11 / 2002 – Atual <br>
+        </p>
+
+        <p class="details">
+        Prevenção de ações criminosas, vandalismos e comportamentos indevidos em gerais nas instalações do Patrimônio do Município. Monitoramento do Sistema CFTV, vigilância remota do Patrimônio e instalações da Prefeitura do Recife, além de ter exercido atividade de operador no monitoramento de trânsito e Agente de Trânsito.
+        </p>
+
+        </div>
+
+    <h4>Contato</h4>
+    
+    <p>
+      <a href="Contato.html"> E-mail </a> <!--Serve para criar um link que abre o email do usuário-->
+    </p>
+
+</div>
+
+<div class="footer"> <!-- Nota de Rodapé-->
+
+    Developer by Ivani Ventura
+
+</div>
+
+</body>
+
+</html>
